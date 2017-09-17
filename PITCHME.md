@@ -3,7 +3,7 @@
 <h2 class="fragment">Or: Decoupling. What Is It Good For?</h2>
 
 Note:
-As we all know:
+Dear community, as we all know:
 
 In the beginning there was chaos and then came ...
 
@@ -44,11 +44,10 @@ Note:
 - Information Hiding Principle
 - Tell, don´t ask! (High cohesion)
 - Dependency injection
-
 - SOLID principles!!!
-- Single Responsibility Principle: a class should have only a single responsibility (i.e. changes to only one part of the software's specification should be able to affect the specification of the class)
-- Open Closed Principle: software entities … should be open for extension, but closed for modification
-- Liskov Substitution Principle: objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
+- Single Responsibility Principle
+- Open Closed Principle: software entities should be open for extension, but closed for modification
+- Liskov Substitution Principle
 - Interface Segregation Principle: many client-specific interfaces are better than one general-purpose interface
 - Dependency Inversion Principle: one should depend upon abstractions, not concretions
 
