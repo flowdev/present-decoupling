@@ -18,7 +18,7 @@ This is still used a lot esp. for utility functions.
 
 ---
 
-## Object Oriented Programming
+## Object Orientation
 ![Logo](assets/class-diagram.jpg)
 
 Note:
