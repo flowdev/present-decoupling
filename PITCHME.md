@@ -2,6 +2,11 @@
 <h2 class="fragment">Or: Decoupling Through the Ages</h2>
 <h2 class="fragment">Or: Decoupling. What Is It Good For?</h2>
 
+Note:
+As we all know:
+
+In the beginning there was chaos and then came ...
+
 ---
 
 ## Procedural Programming
