@@ -37,3 +37,16 @@ Note:
 
 ## Clean Code
 
+---
+
+## Functional Programming
+
+---
+
+## The Goal
+
+- Decoupling as a natural thing to happen
+- Good match for business logic
+- Easy to understand
+- Natural graphical representation
+
