@@ -36,6 +36,32 @@ Note:
 ---
 
 ## Clean Code
+![Logo](assets/clean-code.jpg)
+
+Note:
+- Favour Composition over Inheritance
+- Separation of Concerns
+- Information Hiding Principle
+- Tell, don´t ask! (High cohesion)
+- Dependency injection
+
+- SOLID principles!!!
+- Single Responsibility Principle: a class should have only a single responsibility (i.e. changes to only one part of the software's specification should be able to affect the specification of the class)
+- Open Closed Principle: software entities … should be open for extension, but closed for modification
+- Liskov Substitution Principle: objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
+- Interface Segregation Principle: many client-specific interfaces are better than one general-purpose interface
+- Dependency Inversion Principle: one should depend upon abstractions, not concretions
+
+---
+
+## Messaging
+![Logo](assets/messaging.jpg)
+
+Note:
+- Why don't we use HTTP internaly?
+- Asynchronism prevents time wise coupling (no timeout handling).
+- Persistence prevents stability wise coupling (no exponential backoff that has to be randomised, no circuit breaker).
+- Sender and receiver are decoupled with messaging.
 
 ---
 
@@ -45,8 +71,8 @@ Note:
 
 ## The Goal
 
-- Decoupling as a natural thing to happen
-- Good match for business logic
-- Easy to understand
-- Natural graphical representation
+- Decoupling as a natural thing to happen |
+- Good match for business logic           |
+- Easy to understand                      |
+- Natural graphical representation        |
 
