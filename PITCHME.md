@@ -6,3 +6,13 @@
 
 ## Procedural Programming
 ![Logo](assets/call-graph.png)
+
+Note:
+A call decouples from:
+
+- Registers
+- Variables in the calling procedure
+
+A procedure can be called from and reused anywhere.
+
+This is still used a lot esp. for utility functions.
