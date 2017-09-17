@@ -4,6 +4,5 @@
 
 ---
 
-# Procedural Programming
-
+## Procedural Programming
 ![Logo](assets/call-graph.png)
