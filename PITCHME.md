@@ -73,7 +73,7 @@ Note:
 - Pure (side-effect free) functions are decoupled from any context including timing (lazy evaluation).
 - Especially good for multithreading
 
----
+---?image=assets/green-pasture.jpg
 
 ## The Goal
 
