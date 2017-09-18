@@ -65,7 +65,7 @@ Note:
 ---
 
 ## Functional Programming
-![Logo](assets/lambda.jpg)
+![Logo](assets/lambda.png)
 
 Note:
 - Functors (higher-order functions) allow composition of decoupled functions.
@@ -79,6 +79,6 @@ Note:
 
 - Decoupling as a natural thing to happen |
 - Good match for business logic           |
-- Easy to understand                      |
+- Easy to understand (low cognitive load) |
 - Natural graphical representation        |
 
