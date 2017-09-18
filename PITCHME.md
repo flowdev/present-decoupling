@@ -75,7 +75,7 @@ Note:
 
 ---?image=assets/green-pasture.jpg
 
-## The Goal
+## Objective
 
 - Decoupling as a natural thing to happen |
 - Good match for business logic           |
