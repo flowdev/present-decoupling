@@ -65,6 +65,13 @@ Note:
 ---
 
 ## Functional Programming
+![Logo](assets/lambda.jpg)
+
+Note:
+- Functors (higher-order functions) allow composition of decoupled functions.
+- Immutable data structures decouple concurrently running functions.
+- Pure (side-effect free) functions are decoupled from any context including timing (lazy evaluation).
+- Especially good for multithreading
 
 ---
 
