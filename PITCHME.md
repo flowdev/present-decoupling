@@ -1,11 +1,10 @@
 # Decoupling and Code
 <h2 class="fragment">Or: Decoupling Through the Ages</h2>
-<h2 class="fragment">Or: Decoupling. What Is It Good For?</h2>
+<h2 class="fragment">Or: (Almost) All Advances in Progamming Are Decoupling</h2>
 
 Note:
-Dear community, as we all know:
-
-In the beginning there was chaos and then came ...
+Dear community,
+as we all know in the beginning there was chaos and then came ...
 
 ---
 
@@ -13,7 +12,14 @@ In the beginning there was chaos and then came ...
 ![Logo](assets/call-graph.png)
 
 Note:
-A call decouples from
+I hope I didn't hurt anyones religious feelings. I just love such jokes.
+
+And it is true: In the beginning there was chaos.
+People did anything possible to squeze a little more functionality into the very small memory.
+An often used trick for example was to overwrite the code at runtime.
+This and other tricks made programs basically impossible to reason about.
+
+A procedure call decouples from
 - registers and
 - variables and state in the calling procedure.
 
@@ -27,11 +33,11 @@ This is still used a lot esp. for utility functions.
 ![Logo](assets/class-diagram.jpg)
 
 Note:
+- It grew strong together with GUIs.
 - A class encapsulates functionality and state.
 - Thus it decouples from other classes.
 - Inheritence creates a lot of coupling.
 - OOP works best for purely technical domains.
-- It grew strong together with GUIs.
 
 ---
 
@@ -75,10 +81,9 @@ Note:
 
 ---?image=assets/green-pasture.jpg
 
-## Objective
+## Optimize for Decoupling
 
 - Decoupling as a natural thing to happen |
 - Good match for business logic           |
 - Easy to understand (low cognitive load) |
 - Natural graphical representation        |
-
