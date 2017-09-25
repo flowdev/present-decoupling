@@ -91,8 +91,11 @@ Note:
 ## Messaging (2)
 
 - Why don't we use HTTP internaly? |
-- Asynchronism prevents time wise coupling: no timeout handling |
-- Persistence prevents stability wise coupling: no exponential backoff that has to be randomised, no circuit breaker |
+- Asynchronism prevents time wise coupling: \
+  no timeout handling |
+- Persistence prevents stability wise coupling: \
+  no retries with exponential backoff that has to be randomised, \
+  no circuit breaker |
 - Sender and receiver are decoupled with messaging. |
 
 ---
@@ -115,3 +118,4 @@ Note:
 - Good match for business logic           |
 - Easy to understand (low cognitive load) |
 - Natural graphical representation        |
+- Parallel to the Barzahlen solution I am working on a spike implementation for the EBICS service. |
