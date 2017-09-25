@@ -40,19 +40,25 @@ Then came procedures:
 ## Object Orientation
 ![Logo](assets/class-diagram.jpg)
 
-Note:
-- It grew strong together with GUIs.
-- A class encapsulates functionality and state.
-- Thus it decouples from other classes.
-- Inheritence creates a lot of coupling.
-- OOP works best for purely technical domains.
+---
+
+## Object Orientation
+
+- It grew strong together with GUIs
+- Classes encapsulate functionality and state
+- Thus they decouple from other classes
+- OOP works best for purely technical domains
+- Inheritence creates a lot of coupling
 
 ---
 
 ## Clean Code
 ![Logo](assets/clean-code.jpg)
 
-Note:
+---
+
+## Clean Code
+
 - Favour Composition over Inheritance
 - Separation of Concerns
 - Information Hiding Principle
@@ -64,6 +70,8 @@ Note:
 - Liskov Substitution Principle
 - Interface Segregation Principle: many client-specific interfaces are better than one general-purpose interface
 - Dependency Inversion Principle: one should depend upon abstractions, not concretions
+
+Note:
 
 ---
 
