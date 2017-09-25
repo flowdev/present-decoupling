@@ -1,6 +1,6 @@
 # Decoupling and Code
-<h2 class="fragment">Or: Decoupling Through the Ages</h2>
-<h2 class="fragment">Or: Decoupling Is (Almost) the Only Advance in Progamming</h2>
+<h2 class="fragment">Decoupling Through the Ages</h2>
+<h2 class="fragment">Decoupling: The Only Advancement in Progamming</h2>
 
 Note:
 Dear community,
@@ -31,9 +31,9 @@ Then came procedures:
 - they give structure to the program |
 - they decouple from registers |
 - they decouple from state in the calling procedure |
-- a procedure can be reused anywhere |
-- possible to reuse procedures across projects |
-- this is still used a lot mainly for utilities |
+- they can be reused anywhere in the program |
+- they can be reuse across projects |
+- This is still used a lot. |
 
 ---
 
