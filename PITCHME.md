@@ -88,27 +88,28 @@ Note:
 
 ---
 
+## Messaging (2)
+
 - Why don't we use HTTP internaly? |
 - Asynchronism prevents time wise coupling: no timeout handling |
 - Persistence prevents stability wise coupling: no exponential backoff that has to be randomised, no circuit breaker |
 - Sender and receiver are decoupled with messaging. |
-
-Note:
 
 ---
 
 ## Functional Programming
 ![Logo](assets/lambda.png)
 
-Note:
-- Functors (higher-order functions) allow composition of decoupled functions.
-- Immutable data structures decouple concurrently running functions.
-- Pure (side-effect free) functions are decoupled from any context including timing (lazy evaluation).
-- Especially good for multithreading
+## Functional Programming (2)
+
+- Functors (higher-order functions) allow composition of decoupled functions |
+- Immutable data structures decouple concurrently running functions |
+- Pure (side-effect free) functions are decoupled from any context including timing (lazy evaluation) |
+- Especially good for multithreading |
 
 ---?image=assets/green-pasture.jpg
 
-## Optimize for Decoupling
+## What Can Happen If We Optimize for Decoupling?
 
 - Decoupling as a natural thing to happen |
 - Good match for business logic           |
