@@ -121,7 +121,7 @@ Note:
 ## What Can Happen If We Optimize for Decoupling?
 
 - Decoupling as a natural thing |
-- Good match for business logic |
+- Great match for business logic |
 - Easy to understand |
 - Natural graphical representation        |
 - Parallel to the Barzahlen solution I am working on a spike implementation for the EBICS service. |
