@@ -31,9 +31,9 @@ Then came procedures:
 - they give structure to the program |
 - they decouple from registers |
 - they decouple from state in the calling procedure |
-- a procedure can be called from and reused anywhere |
+- a procedure can be reused anywhere |
 - possible to reuse procedures across projects |
-- this is still used a lot esp. for utility functions |
+- this is still used a lot mainly for utilities |
 
 ---
 
