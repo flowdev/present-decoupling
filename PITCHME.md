@@ -16,18 +16,23 @@ I hope I didn't hurt anyones religious feelings. I just love such jokes.
 
 ---
 
-## Procedural Programming
+## Procedural Programming (2)
 
 In the beginning there was chaos:
 - ANYTHING was done to save memory |
 - Modifiying code at runtime |
 - No chance to reason about the code |
 
-Benefits of procedurs:
+---
+
+## Procedural Programming (3)
+
+Then came procedures:
 - they give structure to the program |
 - they decouple from registers |
-- they decouple from variables and state in the calling procedure |
+- they decouple from state in the calling procedure |
 - a procedure can be called from and reused anywhere |
+- possible to reuse procedures across projects |
 - this is still used a lot esp. for utility functions |
 
 ---
