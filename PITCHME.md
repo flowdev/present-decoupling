@@ -91,17 +91,20 @@ Note:
 ## Messaging (2)
 
 - Why don't we use HTTP internaly? |
-- Asynchronism prevents time wise coupling: \
-  no timeout handling |
-- Persistence prevents stability wise coupling: \
-  no retries with exponential backoff that has to be randomised, \
-  no circuit breaker |
+- Asynchronism prevents time wise coupling: |
+  * no timeout handling |
+- Persistence prevents stability wise coupling: |
+  * no retries with exponential backoff |
+  * that have to be randomised |
+  * no circuit breaker |
 - Sender and receiver are decoupled with messaging. |
 
 ---
 
 ## Functional Programming
 ![Logo](assets/lambda.png)
+
+---
 
 ## Functional Programming (2)
 
@@ -114,8 +117,8 @@ Note:
 
 ## What Can Happen If We Optimize for Decoupling?
 
-- Decoupling as a natural thing to happen |
-- Good match for business logic           |
-- Easy to understand (low cognitive load) |
+- Decoupling as a natural thing |
+- Good match for business logic |
+- Easy to understand |
 - Natural graphical representation        |
 - Parallel to the Barzahlen solution I am working on a spike implementation for the EBICS service. |
