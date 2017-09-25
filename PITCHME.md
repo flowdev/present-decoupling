@@ -42,13 +42,13 @@ Then came procedures:
 
 ---
 
-## Object Orientation
+## Object Orientation (2)
 
-- It grew strong together with GUIs
-- Classes encapsulate functionality and state
-- Thus they decouple from other classes
-- OOP works best for purely technical domains
-- Inheritence creates a lot of coupling
+- It grew strong together with GUIs |
+- Classes encapsulate functionality and state |
+- Thus they decouple from other classes |
+- OOP works best for purely technical domains |
+- Inheritence creates a lot of coupling |
 
 ---
 
@@ -57,32 +57,43 @@ Then came procedures:
 
 ---
 
-## Clean Code
+## Clean Code (2)
 
-- Favour Composition over Inheritance
-- Separation of Concerns
-- Information Hiding Principle
-- Tell, don´t ask! (High cohesion)
-- Dependency injection
-- SOLID principles!!!
-- Single Responsibility Principle
-- Open Closed Principle: software entities should be open for extension, but closed for modification
-- Liskov Substitution Principle
-- Interface Segregation Principle: many client-specific interfaces are better than one general-purpose interface
-- Dependency Inversion Principle: one should depend upon abstractions, not concretions
+- Favour Composition over Inheritance |
+- Separation of Concerns |
+- Information Hiding Principle |
+- Tell, don´t ask! (High cohesion) |
+- Dependency injection |
+
+---
+
+## Clean Code (3)
+
+SOLID principles:
+- Single Responsibility Principle |
+- Open Closed Principle |
+- Liskov Substitution Principle |
+- Interface Segregation Principle |
+- Dependency Inversion Principle |
 
 Note:
+- Open Closed Principle: open for extension, closed for changes
+- Interface Segregation Principle: many client-specific interfaces are better than one general-purpose interface
+- Dependency Inversion Principle: one should depend upon abstractions, not concretions
 
 ---
 
 ## Messaging
 ![Logo](assets/messaging.jpg)
 
+---
+
+- Why don't we use HTTP internaly? |
+- Asynchronism prevents time wise coupling: no timeout handling |
+- Persistence prevents stability wise coupling: no exponential backoff that has to be randomised, no circuit breaker |
+- Sender and receiver are decoupled with messaging. |
+
 Note:
-- Why don't we use HTTP internaly?
-- Asynchronism prevents time wise coupling (no timeout handling).
-- Persistence prevents stability wise coupling (no exponential backoff that has to be randomised, no circuit breaker).
-- Sender and receiver are decoupled with messaging.
 
 ---
 
