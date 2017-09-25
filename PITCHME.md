@@ -16,7 +16,7 @@ I hope I didn't hurt anyones religious feelings. I just love such jokes.
 
 ---
 
-## Procedural Programming (2)
+## Procedural Programming
 
 In the beginning there was chaos:
 - ANYTHING was done to save memory |
@@ -25,7 +25,7 @@ In the beginning there was chaos:
 
 ---
 
-## Procedural Programming (3)
+## Procedural Programming
 
 Then came procedures:
 - they give structure to the program |
@@ -42,7 +42,7 @@ Then came procedures:
 
 ---
 
-## Object Orientation (2)
+## Object Orientation
 
 - It grew strong together with GUIs |
 - Classes encapsulate functionality and state |
@@ -57,7 +57,7 @@ Then came procedures:
 
 ---
 
-## Clean Code (2)
+## Clean Code
 
 - Favour Composition over Inheritance |
 - Separation of Concerns |
@@ -67,7 +67,7 @@ Then came procedures:
 
 ---
 
-## Clean Code (3)
+## Clean Code
 
 SOLID principles:
 - Single Responsibility Principle |
@@ -88,15 +88,15 @@ Note:
 
 ---
 
-## Messaging (2)
+## Messaging
 
 - Why don't we use HTTP internaly? |
 - Asynchronism prevents time wise coupling: |
-  * no timeout handling |
+  * no timeout handling
 - Persistence prevents stability wise coupling: |
-  * no retries with exponential backoff |
-  * that have to be randomised |
-  * no circuit breaker |
+  * no retries with exponential backoff
+  * that have to be randomised
+  * no circuit breaker
 - Sender and receiver are decoupled with messaging. |
 
 ---
@@ -106,14 +106,17 @@ Note:
 
 ---
 
-## Functional Programming (2)
+## Functional Programming
 
 - Functors (higher-order functions) allow composition of decoupled functions |
 - Immutable data structures decouple concurrently running functions |
 - Pure (side-effect free) functions are decoupled from any context including timing (lazy evaluation) |
-- Especially good for multithreading |
 
 ---?image=assets/green-pasture.jpg
+
+## What Can Happen If We Optimize for Decoupling?
+
+---
 
 ## What Can Happen If We Optimize for Decoupling?
 
