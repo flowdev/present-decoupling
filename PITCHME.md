@@ -1,6 +1,6 @@
 # Decoupling and Code
 <h2 class="fragment">Or: Decoupling Through the Ages</h2>
-<h2 class="fragment">Or: (Almost) All Advances in Progamming Are Decoupling</h2>
+<h2 class="fragment">Or: Decoupling Is (Almost) the Only Advance in Progamming</h2>
 
 Note:
 Dear community,
@@ -14,18 +14,21 @@ as we all know in the beginning there was chaos and then came ...
 Note:
 I hope I didn't hurt anyones religious feelings. I just love such jokes.
 
-And it is true: In the beginning there was chaos.
-People did anything possible to squeze a little more functionality into the very small memory.
-An often used trick for example was to overwrite the code at runtime.
-This and other tricks made programs basically impossible to reason about.
+---
 
-A procedure call decouples from
-- registers and
-- variables and state in the calling procedure.
+## Procedural Programming
 
-A procedure can be called from and reused anywhere.
+In the beginning there was chaos:
+- ANYTHING was done to save memory |
+- Modifiying code at runtime |
+- No chance to reason about the code |
 
-This is still used a lot esp. for utility functions.
+Benefits of procedurs:
+- they give structure to the program |
+- they decouple from registers |
+- they decouple from variables and state in the calling procedure |
+- a procedure can be called from and reused anywhere |
+- this is still used a lot esp. for utility functions |
 
 ---
 
