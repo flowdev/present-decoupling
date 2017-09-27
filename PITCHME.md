@@ -2,17 +2,10 @@
 <h2 class="fragment">Decoupling Through the Ages</h2>
 <h2 class="fragment">Decoupling: The Only Advancement in Progamming</h2>
 
-Note:
-Dear community,
-as we all know in the beginning there was chaos and then came ...
-
 ---
 
 ## Procedural Programming
 ![Logo](assets/call-graph.png)
-
-Note:
-I hope I didn't hurt anyones religious feelings. I just love such jokes.
 
 ---
 
