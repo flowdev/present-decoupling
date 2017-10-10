@@ -1,4 +1,4 @@
-# present-decoupling
+# Presentation: Decoupling And Programming
 Show the benefits of decoupling with examples from precedural, object oriented and functional programming
 
 Present this repo using GitPitch with: [https://gitpitch.com/flowdev/present-decoupling](https://gitpitch.com/flowdev/present-decoupling) \
