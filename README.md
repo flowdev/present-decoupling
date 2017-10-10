@@ -1,4 +1,6 @@
 # Presentation: Decoupling And Programming
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/flowdev/present-decoupling/master?grs=github&t=white)
+
 Show the benefits of decoupling with examples from precedural, object oriented and functional programming
 
 Present this repo using GitPitch with: [https://gitpitch.com/flowdev/present-decoupling](https://gitpitch.com/flowdev/present-decoupling) \
